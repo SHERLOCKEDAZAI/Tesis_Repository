@@ -1,0 +1,7 @@
+INFILE=Z:\SPE\implementation\system.ncd
+OUTFILE=Z:\SPE\implementation\system.bit
+FAMILY=Spartan3E
+PART=xc3s1600e-4fg320
+WORKINGDIR=Z:\SPE\implementation
+LICENSE=WebPack
+USER_INFO=0_0_0
