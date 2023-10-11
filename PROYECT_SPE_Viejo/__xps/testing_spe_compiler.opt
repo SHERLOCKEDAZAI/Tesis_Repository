@@ -1,0 +1,22 @@
+microblaze_0
+TESTING_SPE_SOURCES = /cygdrive/c/Documents and Settings/All Users/Documentos/SPE/Test.c 
+TESTING_SPE_HEADERS = 
+TESTING_SPE_CC = mb-gcc
+TESTING_SPE_CC_SIZE = mb-size
+TESTING_SPE_CC_OPT = -O0
+TESTING_SPE_CFLAGS = 
+TESTING_SPE_CC_SEARCH = # -B
+TESTING_SPE_LIBPATH = -L./microblaze_0/lib/ # -L
+TESTING_SPE_INCLUDES = -I./microblaze_0/include/ # -I
+TESTING_SPE_LFLAGS = # -l
+TESTING_SPE_LINKER_SCRIPT = 
+TESTING_SPE_CC_DEBUG_FLAG =  -g 
+TESTING_SPE_CC_PROFILE_FLAG = # -pg
+TESTING_SPE_CC_GLOBPTR_FLAG= # -mxl-gp-opt
+TESTING_SPE_MODE = executable
+TESTING_SPE_LIBG_OPT = -$(TESTING_SPE_MODE) microblaze_0
+TESTING_SPE_CC_INFERRED_FLAGS= -mxl-soft-mul -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.00.b 
+TESTING_SPE_CC_START_ADDR_FLAG=  # -Wl,-defsym -Wl,_TEXT_START_ADDR=
+TESTING_SPE_CC_STACK_SIZE_FLAG=  # -Wl,-defsym -Wl,_STACK_SIZE=
+TESTING_SPE_CC_HEAP_SIZE_FLAG=  # -Wl,-defsym -Wl,_HEAP_SIZE=
+                  $(TESTING_SPE_CC_INFERRED_FLAGS)  \
