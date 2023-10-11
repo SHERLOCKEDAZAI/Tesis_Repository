@@ -1,0 +1,11 @@
+[codespell]
+#skip =
+
+builtin = clear,rare,informal,usage,code,en-GB_to_en-US
+
+ignore-words-list = od,usera,thre,usere,master
+# note: use lower-case!
+
+# options without argument
+check-filenames =
+check-hidden =
